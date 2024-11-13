@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-0cvvfpioc3h@a42n+lms=7=*1x2@^^+v$ovx8n0de)9b0ql1))"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1','.herokuapp.com']
 
@@ -92,7 +92,7 @@ DATABASES = {
         'USER': 'utb9vdqlu3o',
         'PASSWORD': 'dTNLyU2k9sO0',
         'HOST': 'ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech',  
-        'PORT': '8000',  # or whatever port you're using
+        'PORT': '5432',  # or whatever port you're using
     }
 }
 
