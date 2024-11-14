@@ -95,7 +95,10 @@ DATABASES = {
         'PORT': '5432',  # or whatever port you're using
     }
 }
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeinstitute-ide.net/",
+    "https://*.herokuapp.com"
+]
 
 
 # Password validation
